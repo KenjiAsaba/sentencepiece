@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -40,11 +40,11 @@
 
 # define GOOGLE_PROTOBUF_HASH_NAMESPACE_DECLARATION_START \
   namespace google {                                      \
-  namespace protobuf {
+  namespace protobuf_ak {
 # define GOOGLE_PROTOBUF_HASH_NAMESPACE_DECLARATION_END }}
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 template <typename Key>
 struct hash : public std::hash<Key> {};
@@ -108,7 +108,7 @@ struct hash<std::pair<First, Second> > {
   }
 };
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #endif  // GOOGLE_PROTOBUF_STUBS_HASH_H__

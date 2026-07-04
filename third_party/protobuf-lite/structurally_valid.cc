@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -35,7 +35,7 @@
 #include <google/protobuf/stubs/stringpiece.h>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 namespace internal {
 
 // These four-byte entries compactly encode how many bytes 0..255 to delete
@@ -611,5 +611,5 @@ char* UTF8CoerceToStructurallyValid(StringPiece src_str, char* idst,
 }
 
 }  // namespace internal
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google

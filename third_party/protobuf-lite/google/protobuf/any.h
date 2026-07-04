@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -40,7 +40,7 @@
 #include <google/protobuf/port_def.inc>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 class FieldDescriptor;
 class Message;
@@ -54,7 +54,7 @@ extern const char kTypeGoogleProdComPrefix[];  // "type.googleprod.com/".
 std::string GetTypeUrl(StringPiece message_name,
                        StringPiece type_url_prefix);
 
-// Helper class used to implement google::protobuf::Any.
+// Helper class used to implement google::protobuf_ak::Any.
 class PROTOBUF_EXPORT AnyMetadata {
   typedef ArenaStringPtr UrlType;
   typedef ArenaStringPtr ValueType;
@@ -124,7 +124,7 @@ class PROTOBUF_EXPORT AnyMetadata {
 // in the type url separating the full type name.
 //
 // NOTE: this function is available publicly as:
-//   google::protobuf::Any()  // static method on the generated message type.
+//   google::protobuf_ak::Any()  // static method on the generated message type.
 bool ParseAnyTypeUrl(StringPiece type_url, std::string* full_type_name);
 
 // Get the proto type name and prefix from Any::type_url value. For example,
@@ -142,7 +142,7 @@ bool GetAnyFieldDescriptors(const Message& message,
                             const FieldDescriptor** value_field);
 
 }  // namespace internal
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #include <google/protobuf/port_undef.inc>

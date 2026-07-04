@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -148,7 +148,7 @@
 #include <google/protobuf/port_def.inc>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 class DescriptorPool;
 class MessageFactory;
@@ -639,8 +639,8 @@ class PROTOBUF_EXPORT CodedInputStream {
 
   static int default_recursion_limit_;  // 100 by default.
 
-  friend class google::protobuf::ZeroCopyCodedInputStream;
-  friend class google::protobuf::internal::EpsCopyByteStream;
+  friend class google::protobuf_ak::ZeroCopyCodedInputStream;
+  friend class google::protobuf_ak::internal::EpsCopyByteStream;
 };
 
 // EpsCopyOutputStream wraps a ZeroCopyOutputStream and exposes a new stream,
@@ -1702,7 +1702,7 @@ inline uint8* CodedOutputStream::WriteStringToArray(const std::string& str,
 }
 
 }  // namespace io
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #if defined(_MSC_VER) && _MSC_VER >= 1300 && !defined(__INTEL_COMPILER)

@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -46,7 +46,7 @@ static const size_t kMinCleanupListElements = 8;
 static const size_t kMaxCleanupListElements = 64;  // 1kB on 64-bit.
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 PROTOBUF_EXPORT /*static*/ void* (*const ArenaOptions::kDefaultBlockAlloc)(
     size_t) = &::operator new;
@@ -445,5 +445,5 @@ void* Arena::AllocateAlignedNoHook(size_t n) {
   return impl_.AllocateAligned(n);
 }
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google

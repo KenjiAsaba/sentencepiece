@@ -1,4 +1,4 @@
-#ifndef GOOGLE_PROTOBUF_STUBS_CALLBACK_H_
+﻿#ifndef GOOGLE_PROTOBUF_STUBS_CALLBACK_H_
 #define GOOGLE_PROTOBUF_STUBS_CALLBACK_H_
 
 #include <type_traits>
@@ -11,7 +11,7 @@
 // emulates google3/base/callback.h
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 // Abstract interface for a callback.  When calling an RPC, you must provide
 // a Closure to call when the procedure completes.  See the Service interface
@@ -575,7 +575,7 @@ inline ResultCallback2<R, A1, A2>* NewPermanentCallback(
 //   Closure* nothing = NewCallback(&DoNothing);
 void PROTOBUF_EXPORT DoNothing();
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #include <google/protobuf/port_undef.inc>

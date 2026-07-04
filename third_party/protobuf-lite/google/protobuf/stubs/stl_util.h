@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -36,7 +36,7 @@
 #include <google/protobuf/stubs/common.h>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 // Inside Google, this function implements a horrible, disgusting hack in which
 // we reach into the string's private implementation and resize it without
@@ -65,7 +65,7 @@ inline char* string_as_array(std::string* str) {
   return str->empty() ? nullptr : &*str->begin();
 }
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #endif  // GOOGLE_PROTOBUF_STUBS_STL_UTIL_H__

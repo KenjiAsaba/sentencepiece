@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -34,7 +34,7 @@
 #include <google/protobuf/stubs/port.h>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 #undef GOOGLE_DISALLOW_EVIL_CONSTRUCTORS
 #define GOOGLE_DISALLOW_EVIL_CONSTRUCTORS(TypeName)    \
@@ -114,7 +114,7 @@ struct CompileAssert {
 
 #define GOOGLE_COMPILE_ASSERT(expr, msg) static_assert(expr, #msg)
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #endif  // GOOGLE_PROTOBUF_MACROS_H__

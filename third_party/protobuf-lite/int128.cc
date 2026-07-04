@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -39,7 +39,7 @@
 #include <google/protobuf/port_def.inc>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 const uint128_pod kuint128max = {
     static_cast<uint64>(PROTOBUF_LONGLONG(0xFFFFFFFFFFFFFFFF)),
@@ -188,5 +188,5 @@ std::ostream& operator<<(std::ostream& o, const uint128& b) {
   return o << rep;
 }
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google

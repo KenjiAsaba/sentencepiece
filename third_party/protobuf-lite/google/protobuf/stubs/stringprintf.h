@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2012 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -49,7 +49,7 @@
 #include <google/protobuf/port_def.inc>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 // Return a C++ string
 PROTOBUF_EXPORT extern std::string StringPrintf(const char* format, ...);
@@ -77,7 +77,7 @@ PROTOBUF_EXPORT extern const int kStringPrintfVectorMaxArgs;
 PROTOBUF_EXPORT extern std::string StringPrintfVector(
     const char* format, const std::vector<std::string>& v);
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #include <google/protobuf/port_undef.inc>

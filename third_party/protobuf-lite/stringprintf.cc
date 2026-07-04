@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2012 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -41,7 +41,7 @@
 #include <google/protobuf/stubs/logging.h>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 #ifdef _MSC_VER
 enum { IS_COMPILER_MSVC = 1 };
@@ -172,5 +172,5 @@ std::string StringPrintfVector(const char* format,
                       cstr[25], cstr[26], cstr[27], cstr[28], cstr[29],
                       cstr[30], cstr[31]);
 }
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google

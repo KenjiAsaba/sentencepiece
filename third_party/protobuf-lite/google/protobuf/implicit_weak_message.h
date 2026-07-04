@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -48,7 +48,7 @@
 // generated code.
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 namespace internal {
 
 // An implementation of MessageLite that treats all data as unknown. This type
@@ -182,7 +182,7 @@ struct WeakRepeatedPtrField {
   };
 };
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #include <google/protobuf/port_undef.inc>

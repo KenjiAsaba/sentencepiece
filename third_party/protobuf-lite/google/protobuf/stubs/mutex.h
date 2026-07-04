@@ -1,4 +1,4 @@
-// Copyright (c) 2006, Google Inc.
+﻿// Copyright (c) 2006, Google Inc.
 // All rights reserved.
 //
 // Redistribution and use in source and binary forms, with or without
@@ -64,7 +64,7 @@
 // ===================================================================
 // emulates google3/base/mutex.h
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 namespace internal {
 
 #define GOOGLE_PROTOBUF_LINKER_INITIALIZED
@@ -175,7 +175,7 @@ using internal::ReaderMutexLock;
 using internal::WriterMutexLock;
 using internal::MutexLockMaybe;
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #undef GOOGLE_PROTOBUF_ACQUIRE

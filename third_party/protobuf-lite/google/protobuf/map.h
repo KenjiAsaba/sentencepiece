@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -63,7 +63,7 @@
 #include <google/protobuf/port_def.inc>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 template <typename Key, typename T>
 class Map;
@@ -1354,7 +1354,7 @@ class Map {
   friend class internal::MapFieldLite;
 };
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #include <google/protobuf/port_undef.inc>

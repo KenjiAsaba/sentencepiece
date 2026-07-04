@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -58,7 +58,7 @@
 #endif
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 // These are defined as macros on some platforms.  #undef them so that we can
 // redefine them.
@@ -2473,5 +2473,5 @@ double NoLocaleStrtod(const char *str, char **endptr) {
 
 }  // namespace internal
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google

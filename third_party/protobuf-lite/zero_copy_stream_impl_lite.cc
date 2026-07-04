@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -43,7 +43,7 @@
 #include <google/protobuf/stubs/stl_util.h>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 namespace io {
 
 namespace {
@@ -463,5 +463,5 @@ int64_t LimitingInputStream::ByteCount() const {
 // ===================================================================
 
 }  // namespace io
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google

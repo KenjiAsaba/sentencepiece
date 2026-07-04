@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -61,7 +61,7 @@
 class CordByteSink;
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 namespace strings {
 
 // An abstract interface for an object that consumes a sequence of bytes. This
@@ -343,7 +343,7 @@ class PROTOBUF_EXPORT LimitByteSource : public ByteSource {
 };
 
 }  // namespace strings
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #include <google/protobuf/port_undef.inc>

@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -38,7 +38,7 @@
 #include <google/protobuf/stubs/logging.h>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 std::ostream& operator<<(std::ostream& o, StringPiece piece) {
   o.write(piece.data(), piece.size());
   return o;
@@ -266,5 +266,5 @@ StringPiece StringPiece::substr(size_type pos, size_type n) const {
 
 const StringPiece::size_type StringPiece::npos = size_type(-1);
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google

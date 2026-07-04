@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -38,7 +38,7 @@
 #include <google/protobuf/wire_format_lite.h>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 namespace internal {
 
 namespace {
@@ -102,5 +102,5 @@ bool MergePartialFromCodedStreamLite(MessageLite* msg, const ParseTable& table,
 }
 
 }  // namespace internal
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google

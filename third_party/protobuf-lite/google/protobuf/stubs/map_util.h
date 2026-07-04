@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2014 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -43,7 +43,7 @@
 #include <google/protobuf/stubs/common.h>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 namespace internal {
 // Local implementation of RemoveConst to avoid including base/type_traits.h.
 template <class T> struct RemoveConst { typedef T type; };
@@ -763,7 +763,7 @@ void AppendValuesFromMap(const MapContainer& map_container,
   }
 }
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #endif  // GOOGLE_PROTOBUF_STUBS_MAP_UTIL_H__

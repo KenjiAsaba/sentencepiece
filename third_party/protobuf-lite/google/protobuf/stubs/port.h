@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -115,7 +115,7 @@
 #endif
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 using ConstStringParam = const std::string &;
 
@@ -397,7 +397,7 @@ class BigEndian {
   }
 };
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #include <google/protobuf/port_undef.inc>

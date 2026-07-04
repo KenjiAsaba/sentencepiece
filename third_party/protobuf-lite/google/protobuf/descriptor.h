@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -78,7 +78,7 @@
 
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 
 // Defined in this file.
 class Descriptor;
@@ -2316,7 +2316,7 @@ inline const FieldDescriptor* OneofDescriptor::field(int index) const {
   return fields_[index];
 }
 
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #include <google/protobuf/port_undef.inc>

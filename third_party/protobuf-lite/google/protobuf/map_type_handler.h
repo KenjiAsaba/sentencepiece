@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -41,7 +41,7 @@
 #endif
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 namespace internal {
 
 // Used for compile time type selection. MapIf::type will be TrueType if Flag is
@@ -682,7 +682,7 @@ PRIMITIVE_HANDLER_FUNCTIONS(BOOL)
 #undef PRIMITIVE_HANDLER_FUNCTIONS
 
 }  // namespace internal
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
 
 #endif  // GOOGLE_PROTOBUF_TYPE_HANDLER_H__

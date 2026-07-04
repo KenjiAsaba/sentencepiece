@@ -1,4 +1,4 @@
-// Copyright 2016 Google Inc.
+﻿// Copyright 2016 Google Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -43,7 +43,7 @@ inline void ParseCommandLineFlags(const char *usage, int *argc, char ***argv,
 }
 
 inline void ShutdownLibrary() {
-  google::protobuf::ShutdownProtobufLibrary();
+  google::protobuf_ak::ShutdownProtobufLibrary();
 #ifdef HAS_ABSL_CLEANUP_FLAGS
   absl::CleanupFlags();
 #endif

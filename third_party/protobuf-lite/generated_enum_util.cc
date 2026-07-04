@@ -1,4 +1,4 @@
-// Protocol Buffers - Google's data interchange format
+﻿// Protocol Buffers - Google's data interchange format
 // Copyright 2008 Google Inc.  All rights reserved.
 // https://developers.google.com/protocol-buffers/
 //
@@ -35,7 +35,7 @@
 #include <google/protobuf/generated_message_util.h>
 
 namespace google {
-namespace protobuf {
+namespace protobuf_ak {
 namespace internal {
 namespace {
 
@@ -91,5 +91,5 @@ bool InitializeEnumStrings(
 }
 
 }  // namespace internal
-}  // namespace protobuf
+}  // namespace protobuf_ak
 }  // namespace google
